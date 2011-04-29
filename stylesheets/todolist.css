@@ -1,0 +1,47 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;vertical-align:baseline;text-decoration:none}
+strong{font-weight:bold;}
+:focus{outline:0}
+ol, ul{list-style:none}
+table{border-collapse: separate;border-spacing:0}
+caption, th, td{text-align: left;font-weight: normal}
+blockquote:before, blockquote:after, q:before, q:after {content: ""}
+blockquote, q{ quotes: "" ""}
+html{overflow:-moz-scrollbars-vertical}
+a{color:#989898}
+a:hover{text-decoration:none;}
+.clear {clear: both;}
+
+body {font-family:Helvetica, Arial, sans-serif; font-size:15px;}
+
+
+#todolist {width:960px; margin:0 auto;}
+#todolist .header {text-align:center;}
+#todolist .header h2 {font-size:300%; font-weight:bold; letter-spacing:-1px;}
+#todolist .header input {
+	width:920px; 
+	padding:20px; 
+	font-size:180%;
+	color:#000; 
+	text-shadow: 0px 1px 0px #fff;
+	outline: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#ffffff));
+	background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #717171;
+	-webkit-box-shadow: 1px 1px 0px #efefef;
+	-moz-box-shadow: 1px 1px 0px #efefef;
+	box-shadow:  1px 1px 0px #efefef
+}
+
+#todolist .header input:focus {
+	-webkit-box-shadow: 0px 0px 5px #007eff;
+	-moz-box-shadow: 0px 0px 5px #007eff;
+	box-shadow: 0px 0px 5px #007eff;
+}
+
+#todolist ul {}
+#todolist ul li {padding:10px; font-size:16px; background:#f5f5f5; border-bottom:1px solid #999; cursor:pointer;}
+#todolist ul li:hover {background:#fff;}
