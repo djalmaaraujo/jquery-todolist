@@ -7,8 +7,8 @@
  *
  */
 $(function() {
-	todoContainer 	= $('#todolist');
-	todoInput 			= todoContainer.find('.header input');
+	todoContainer		= $('#todolist');
+	todoInput				= todoContainer.find('.header input');
 	todoPlaceHolder = 'Digite uma tarefa e aperte enter..';
 	todoStorageKey	= 'todolistDB';
 	
@@ -54,8 +54,8 @@ $(function() {
 		
 		// Delete a task from localStorage
 		delete: function(id, fn) {
-			var tasks 		= TodoList.tasks();
-			var newTasks 	= [];
+			var tasks			= TodoList.tasks();
+			var newTasks	= [];
 			if (tasks) {
 				for (var i = 0; i < tasks.length; i++) {
 					if (tasks[i].id != id) {
@@ -88,11 +88,11 @@ $(function() {
 		appendTask: function(task) {
 			html = '';
 			html += '<li>';
-			html += '	<a href="javascript:void(0);" data-id="' + task.id + '" class="mark-as-done">[Done]</a> ';
-			html += '	<span class="task">';
+			html += ' <a href="javascript:void(0);" data-id="' + task.id + '" class="mark-as-done">[Done]</a> ';
+			html += ' <span class="task">';
 			html += task.message;
-			html +=  '	</span>';
-			html +=  '</li>';
+			html +=	 '	</span>';
+			html +=	 '</li>';
 			todoContainer.find('ul').append(html);
 		}
 	};
