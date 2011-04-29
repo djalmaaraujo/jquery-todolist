@@ -62,7 +62,6 @@ $(function() {
 						newTasks.push(tasks[i]);
 					}
 				}
-				console.log(newTasks);
 				TodoList.save(newTasks);
 			}
 			if (fn) fn();
