@@ -34,6 +34,9 @@ body {font-family:Helvetica, Arial, sans-serif; font-size:15px;}
 	-webkit-box-shadow: 1px 1px 0px #efefef;
 	-moz-box-shadow: 1px 1px 0px #efefef;
 	box-shadow:  1px 1px 0px #efefef
+	border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
 }
 
 #todolist .header input:focus {
